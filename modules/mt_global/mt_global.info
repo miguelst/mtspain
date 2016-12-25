@@ -1,0 +1,4 @@
+name = MT Global
+description = Global customizations for MT site.
+package = "Custom"
+core = 7.x

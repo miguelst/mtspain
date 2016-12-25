@@ -1,0 +1,20 @@
+<?php
+function mt_global_feeds_presave($source, $entity, $item) {
+  /*global $pp;
+
+  if (empty($pp)) {
+    $pp = 1;
+    dpm('pp not empty');
+    //dpm($source, '$source');
+    dpm($item, 'item');
+    dpm($entity, '$entity');
+  }*/
+
+/*  // Parent product importer.
+  if($entity->feeds_item->id == 'products_es'){
+    // Not NEW
+    if(!$entity->feeds_item->is_new){
+      dpm('NOT NEW');
+    }
+  }*/
+}
