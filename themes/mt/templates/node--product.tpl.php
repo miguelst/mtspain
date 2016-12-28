@@ -107,6 +107,9 @@
 
     <div class="col-xs-6 col-sm-4">
       <?php print render($content['field_image']); ?>
+      <?php //print render($content['body']); ?>
+      <?php print render($content['field_description_extra']); ?>
+      <?php print render($content['field_data_sheet']); ?>
     </div>
 
     <div class="col-xs-6 col-sm-2">
@@ -122,8 +125,6 @@
 
   <div class="row">
     <div class="col-sm-12">
-      <?php print render($content['body']); ?>
-      <?php print render($content['field_description_extra']); ?>
     </div>
   </div>
 
